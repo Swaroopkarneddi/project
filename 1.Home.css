@@ -1,0 +1,31 @@
+/*Body*/
+body {
+    background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/434310/02f0eabf17fe99701d05f371387381e3dd696c6c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px 0px 0px;
+}
+
+.headder{
+    padding-left: 1rem;
+    display:block;
+    font-size: 2.2rem;
+    text-align: center;
+    max-width: 500px;
+}
+td{
+    padding: auto;
+    border-radius: 5px;
+    padding: 2rem;
+}
+a:link, a:visited {
+    color: silver;
+    text-decoration: none;
+
+}
+img{
+    height: 80px;
+}
+.container1{
+    margin-top: 2rem;
+}

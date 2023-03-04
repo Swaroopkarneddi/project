@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  .container{
+    display:flex;
+    flex-direction: row;
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .box {
+    display: inline-block;
+    background-color: rgba(245, 245, 245, 0.142);
+    background-size:contain;
+    background-repeat: no-repeat;
+   /* min-width: 15rem;
+    min-height: 20rem;
+    max-height: 20rem;
+    max-width: 15rem;*/
+    width: 35%;
+    height: auto;
+    box-shadow: 0 0 10px whitesmoke;
+    border-radius: 50px 90px;
+    padding: 2rem;
+    margin: 0.2rem 1.5rem 3rem 1.5rem;
+    align-self: center;
+    /*animation*/
+  /*animation-name: pulse;
+    animation-timing-function: ease-out;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;*/
+  }
+  .box2{
+    margin:0.2rem 3rem 3rem 3rem ;
+    width: 40%;
+  }
+  /* profile image*/
+  .profile{
+  max-width: 13rem;
+  max-height:16rem;
+  border-radius: 10px;
+}/*
+.image_effect{
+  background-color: #f40468;
+}*/
+.info_block{
+  display: none;
+}
+.info_block:hover {
+  display:block;
+}
+
+
+/*out sorces*/
+
+/*font*/
+  @font-face {
+    src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
+      format("woff2");
+    font-family: "Meta";
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  main {
+    transition: all 0.5s;
+    -webkit-text-stroke: 1.5px #d6f4f4;
+    font-variation-settings: "wght" 900, "ital" 1;
+    font-size: 2.2rem;
+    text-align: center;
+    color: transparent;
+    font-family: "Meta", sans-serif;
+    text-shadow: 10px 10px 0px #07bccc,
+      15px 15px 0px #e601c0,
+      20px 20px 0px #e9019a,
+      25px 25px 0px #f40468,
+      34px 34px 10px #482896;
+    cursor: pointer;
+  }
+  
+  main:hover {
+    font-variation-settings: "wght" 10, "ital" 0;
+    text-shadow: none;
+  }
+/*box animation*/
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}

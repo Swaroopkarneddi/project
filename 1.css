@@ -1,0 +1,74 @@
+form {
+    display: flex;
+    max-width: 600px;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"], input[type="email"],input[type="number"],input[type="radio"] ,select{
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    opacity: 85%;
+    min-width:300px;
+    max-width: 300px;
+  }
+  input:focus {
+    outline: none;
+    border-color: #87e8d3;
+    box-shadow: 0 0 10px #87e8d3;
+  }
+  button {
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  .container1{
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+  .left
+  {
+    margin-left: 80px;
+    margin-top: 50px;;
+  }
+  .middle
+  {
+    margin-left: 120px;
+    margin-top:50px;
+  }
+  .right
+  {
+    margin-top:50px;
+    margin-left:140px;
+  }
+#gender
+{
+  min-width: 335px;
+}
+#school
+{
+  min-width:335px;
+}
+.submit
+{
+  margin-top:10px;
+  margin-left: 70px;
+}
+
